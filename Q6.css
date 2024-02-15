@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 15;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    width: 600px;
+}
+
+.enter-field {
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+#name {
+    height: 30px;
+    border-width: 2px;
+    float: right;
+}
+
+input[type=file] {
+    color: transparent;
+}
+
+#file-input {
+    width: 200px;
+    float: right;
+}
+
+#option1,
+#option2,
+#option3 {
+    margin-left: 20px;
+}
+
+.file-complete {
+    margin-left: 20px;
+}
+
+.button {
+    float: right;
+    margin-top: -70px;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71e6aa, #b65269);
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px #454545;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container form .article-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#text-box{
+    width: 400px;
+}
+
+.container form .article-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#dropdown{
+    width: 300px;
+}
+.button{
+    float: inline-start;
+}

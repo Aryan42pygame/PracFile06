@@ -1,0 +1,69 @@
+<!--1. Write a HTML program to design a form which should allow to enter your
+personal data.
+(Hint: make use of text field, password field, e-mail, lists, radio buttons,
+checkboxes, submit button).-->
+
+<DOCTYPE html>
+
+    <head>
+        <title>
+            Q1
+        </title>
+        <link rel="stylesheet" href="Q1.css">
+    </head>
+
+    <body>
+        <form name="Form1" method="post" action="lists.html">
+            <h1>Form</h1>
+            <div class="Page">
+                <h2>Login</h2>
+                Enter Name:
+                <input type="text">
+                <br>
+
+                Enter password:
+                <input type="password"><br>
+
+                Enter E-Mail id:
+                <input type="email"><br>
+
+                Enter Gender: <br>
+                <input type="radio">Male <br>
+                <input type="radio">Female <br>
+
+                Enter Hobbies: <br>
+                <input type="checkbox">Sketching <br>
+                <input type="checkbox">Music <br>
+                <input type="checkbox">Outdoor Games<br>
+
+                Enter Course: <br>
+                <input type="radio">B.Sc. <br>
+                <input type="radio">B.Com. <br>
+                <input type="radio">B.A. <br>
+                <input type="radio">B.Tech. <br>
+
+                Enter City: <br>
+                <select required>
+                    <option>Rajasthan</option>
+                    <option>MP</option>
+                    <option>Haryana</option>
+                    <option>Delhi</option>
+                    <option>Agra</option>
+                </select><br>
+
+                Roll No: <br>
+                <input type="number" max="999999">
+
+                Attach your 10th marksheet: <br>
+                <input type="file"><br>
+                Attach your 12th marksheet: <br>
+                <input type="file"><br>
+                <br>
+                    <div class="reviews">
+                        <Textarea style="background-color: rgb(70, 30, 100);;" rows="10" cols="50" placeholder="Enter your reviews"></Textarea><br>
+                    </div>
+            <button type="submit"> Login</button><br>
+        </form>
+        </div>
+        </body>
+    </
